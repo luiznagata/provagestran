@@ -1,0 +1,55 @@
+unit dataModule1;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.MSSQL,
+  FireDAC.Phys.MSSQLDef, FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS,
+  FireDAC.DApt.Intf, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client, frxClass, frxDBSet, frCoreClasses;
+
+type
+  TdmPrincipal = class(TDataModule)
+    FDConnection1: TFDConnection;
+    fdqVendedor: TFDQuery;
+    fxrVendedores: TfrxReport;
+    fdqRelVendas: TFDQuery;
+    frxDBDSRelVendas: TfrxDBDataset;
+    frxDBDsResumo: TfrxDBDataset;
+    FDQryResumoFinal: TFDQuery;
+    frxResumo: TfrxReport;
+    FDQryResumoFinalnome_vendedor: TStringField;
+    FDQryResumoFinaltotal_vendas: TFloatField;
+    FDQryResumoFinaltotal_desconto: TFloatField;
+    FDQryResumoFinaltotal_valor: TFloatField;
+    FDQryResumoFinalcomissao: TFloatField;
+    FDQryResumo: TFDQuery;
+    StringField1: TStringField;
+    FloatField1: TFloatField;
+    FloatField2: TFloatField;
+    FloatField3: TFloatField;
+    FloatField4: TFloatField;
+    FDQryUpdateComissao: TFDQuery;
+    StringField2: TStringField;
+    FloatField5: TFloatField;
+    FloatField6: TFloatField;
+    FloatField7: TFloatField;
+    FloatField8: TFloatField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmPrincipal: TdmPrincipal;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

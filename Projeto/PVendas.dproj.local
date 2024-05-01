@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/02/14 23:45:27.000.321,=C:\Users\user\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/29 11:06:27.000.772,=C:\Users\user\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/29 11:39:59.000.247,C:\Users\user\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\Principal.dfm</Transaction>
+    <Transaction>2024/04/29 11:39:59.000.247,C:\Users\user\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\Principal.pas</Transaction>
+    <Transaction>2024/04/29 11:40:12.000.881,C:\Users\user\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\PVendas.dproj</Transaction>
+    <Transaction>2024/04/30 15:54:39.000.830,=C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/04/30 15:55:27.000.745,C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\Unit1.pas=C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\dataModule1.pas</Transaction>
+    <Transaction>2024/04/30 15:55:27.000.745,C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\Unit1.dfm=C:\Users\user\OneDrive\Documentos\ProvaEmpresas\GestranSoft\Projeto\dataModule1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

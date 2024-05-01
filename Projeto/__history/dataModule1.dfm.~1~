@@ -1,0 +1,25 @@
+object dmPrincipal: TdmPrincipal
+  Height = 497
+  Width = 941
+  PixelsPerInch = 144
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DriverID=MSSQL'
+      'Server=localhost\SQLEXPRESS'
+      'User_Name=admgestrran'
+      'Password=Gestran@#$'
+      'Database=GestranSoft'
+      'OSAuthent=Yes')
+    Connected = True
+    Left = 48
+    Top = 16
+  end
+  object fdqVendedor: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'Select * from Vendedores order by id_vendedor;')
+    Left = 144
+    Top = 16
+  end
+end
